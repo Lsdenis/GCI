@@ -8,7 +8,7 @@ namespace GCI.Console.LessonData
 {
     public class WeekDay
     {
-        public IList<Lesson> Lessons { get; set; }
+        public IList<Lesson> Lessons { get; set; } = new List<Lesson>();
 
         public DayOfWeek DayOfWeek { get; set; }
     }

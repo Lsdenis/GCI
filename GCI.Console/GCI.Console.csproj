@@ -83,6 +83,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\LessonType.cs" />
     <Compile Include="LessonData\Lesson.cs" />
     <Compile Include="LessonData\WeekDay.cs" />
     <Compile Include="Program.cs" />

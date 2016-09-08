@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GCI.Console.Enums;
 
 namespace GCI.Console.LessonData
 {
@@ -22,6 +23,10 @@ namespace GCI.Console.LessonData
 
         public string Subject { get; set; }
 
-        public List<int> WeekNumbers { get; set; }
+        public List<int> WeekNumbers { get; set; } = new List<int>();
+
+        public LessonType LessonType { get; set; }
+
+        public int SubGroup { get; set; }
     }
 }
